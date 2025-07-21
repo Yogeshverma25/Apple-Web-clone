@@ -1,0 +1,661 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+#apple{
+    height:700vh;
+    width:100vw;
+    /* border:5px solid red; */
+    /* background-color: blue; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+}
+
+.navbar{
+    position:fixed;
+}
+
+
+.nav1{
+    height:35px;
+    width:100vw;
+    background-color: rgb(248, 249, 249);
+     padding:0px 290px;
+} 
+
+.nav1 a{
+     font-size:1.8vmin;
+     /* padding:0px 270px; */
+     text-decoration: none;
+      color:#302f2f;
+}
+
+.nav1 a:hover{
+     text-decoration: underline;
+}
+
+
+.nav2{
+    height:35px;
+    width:100vw;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
+    /* position:relative; */
+}
+
+
+.nav2 a{
+     text-decoration:none;
+     color:#070707;
+     font-size:.91vw;
+}
+
+.APPLELOGO{
+    font-size:1.5vw;
+}
+
+
+.nav2 a:hover{
+    color:#0085ff;
+}
+
+.nav2 i:hover{
+    color:#0085ff;
+}
+
+
+@media (max-width:833px){
+    .nav2 a{
+        /* display:none; */
+        visibility:hidden;
+    }
+
+    .APPLELOGO{
+        visibility:visible;
+          font-size:2.8vw;
+          /* color:green; */
+    }
+
+    .stream{
+        height:10vh;
+        width:10vw;
+        font-size: 5vw;
+    }
+
+    .m2-container button{
+    height:6.3vh;
+    width:9vw;
+    border-radius:20px;
+    font-size: 10vw;
+    /* background-color: red; */
+    }
+
+    /* .m2{
+        height:90vh;
+    } */
+}
+
+.main{
+    height:290vh;
+    width:100vw;
+    background-color: #ffffff;
+    /* border:5px solid black; */
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+
+    /* position:relative; */
+    /* top:70px; */
+
+
+}
+
+.m1{
+    height:120vh;
+    width:100%;
+   background: linear-gradient(to bottom, rgb(199, 221, 246), white);
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap:wrap;
+   align-items:center;
+   /* position:relative; */
+   /* gap:10px; */
+    border-bottom:15px solid rgb(240, 239, 239);
+     margin:0px 0px 0px 0px;
+}
+
+
+.img1{
+    height:42vh;
+    width:38vw;
+    /* background-color: brown; */
+    background-image:url("material/imgU1.png");
+    background-size: cover;
+    /* background: transparent; */
+    /* background: transparent; */
+
+}
+
+.m1 h1{
+    font-size:3.5vw;
+    font-weight: 630;
+    padding:0px 20px;
+    color:black;
+    
+}
+
+.m1 h2 {
+    color:black;
+    background-color: transparent;
+}
+
+.m1 #buy {
+    color:rgb(66, 106, 229);
+}
+
+.discription{
+    font-weight: 490;
+}
+
+
+.button-container{
+    height:8vh;
+    width:19vw;
+    /* background-color: aqua; */
+     display:flex;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap:wrap;
+   align-items:center;
+}
+.button{
+    height:6vh;
+    width:9vw;
+    border-radius:20px;
+    background-color: rgb(66, 106, 229);
+    color:white;
+    font-size:1.2vw;
+    border:none
+}
+
+
+@media (max-width:950px){
+    .button{
+        font-size:1.9vw;
+        width:12vw;
+        gap:2vw;
+    }
+
+    #buy{
+         width:9vw;
+    }
+}
+
+/* @media (min-width:250px){
+    .button{
+        font-size:1.4vw;
+        width:12vw;
+    }
+
+    #buy{
+         width:9vw;
+    }
+} */
+
+
+
+#buy{
+    width:5.5vw;
+    border:1px solid  royalblue;
+    color:royalblue;
+    background:transparent
+}
+
+#buy:hover{
+    background-color: rgb(66, 106, 229);
+    color:white;
+}
+
+#T1 {
+    font-size: 1.5vw;
+    background: linear-gradient(90deg, #0085ff, #ff0066);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.m2{
+    height:770px;
+    width:100vw;
+    object-fit: contain;
+    border-bottom:15px solid rgb(240, 239, 239);
+    margin:0px 0px 0px 0px;
+
+}
+
+.m2-container{
+    height:20vh;
+    width:30vw;
+    display: flex;
+    justify-content: center;
+    flex-direction:column; 
+    text-align:center;
+    padding: 0vh 45vw;
+    /* border:3px solid; */
+}
+
+.m2-container button{
+    height:6vh;
+    width:7.5vw;
+    border-radius:20px;
+    font-size: 1.2vw;
+     overflow:hidden
+    /* border:none */
+    
+
+}
+.m2-container button:hover{
+    color:white;
+    background-color: #060606;
+    border:none;
+    overflow:hidden
+
+}
+
+.m3{
+     height:105vh;
+    width:100%;
+   /* background: linear-gradient(to bottom, rgb(199, 221, 246), white); */
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   flex-wrap:wrap;
+   align-items:center;
+   background-color:#ffffff;
+    border-bottom:15px solid rgb(240, 239, 239);
+    /* margin:0px 0px 0px 0px; */
+}
+
+.m3 h2{
+    background: transparent;
+}
+
+/* .main-2{
+
+    height:180vh;
+    width:100vw;
+    /* background-color: cadetblue; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+/* } */
+
+
+.main-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+    background: #ffffff;
+    padding: 33px;
+  }
+
+  .div {
+    margin:0;
+    height: 85vh;
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    background-color: #555;
+    box-sizing: border-box;
+  }
+
+
+@media (max-width:823.20px){
+     .div{
+        width:100vw;
+        background-color: #b71c1c;
+     }
+
+     .main-2{
+        background-color: #ffffff;
+     }
+}
+
+
+
+
+/* .div{
+    height:85vh;
+    width:46vw;
+    /* border:5px solid; */
+    /* display:flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* align-items: center;  */
+    /* flex-wrap:wrap; */
+    /* color:white; */
+    /* padding:7vh 1vw; */
+    /* border:none; */
+     /* border-radius: 8px;  */
+/* } */
+
+#kim{
+    font-size:1vw;
+    /* text-align: center; */
+    padding-bottom:-90vh;
+    padding-right:260px;
+     background: linear-gradient(90deg, #0085ff, #ff0066);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+} 
+
+#div1{
+    background-color: #000;
+    
+}
+
+#div1 h1 ,h3,#buy{
+    color:white;
+}
+
+#div2{
+
+    color:rgb(1, 1, 1);
+   background-color: #ffffff;
+   /* border:1px ; */
+   border: 2px solid linear-gradient(black,red,pink);
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(black, red, pink) border-box;
+  border-radius: 8px; /* optional */
+}
+
+#div2 h2{
+    background: transparent;
+}
+
+.AI{
+    height:80vh;
+    width:45.7vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:3.7vw;
+  background: linear-gradient(to right, #e53935, #b71c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* for Firefox (optional) */
+  color: transparent;     /* fallback */
+  padding-bottom:23vh
+
+
+    /* background-image: url("https://imagematrix.tech/wp-content/uploads/2024/07/IMT-APPLE-INTELLIGENCE-1.jpg"); */
+    /* background-size: cover; */
+}
+
+#div3 {
+    background-color:#040404;
+    color:#ffffff;
+    
+}
+
+#div3 i,p,#d3{
+    background-color:#040404;
+    color:#ffffff;
+    
+}
+
+#div4{
+    background-color: whitesmoke;
+    color:black;
+     border: 2px solid linear-gradient(black,red,pink);
+  border: 2px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(black, red, pink) border-box;
+  
+}
+
+#div4 i,h2{
+    background-color: whitesmoke;
+    color:black;
+    background: transparent;
+  
+}
+
+
+
+.Ltext{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; 
+}
+
+.logo{
+     font-size:3.5vw;
+    font-weight: 630;
+}
+
+
+.FOY{
+    height:60vh;
+    width:100vw;
+    /* background-color: #0085ff; */
+     color:white;
+}
+
+.stream{
+    height:7vh;
+    width:7.8vw;
+    background-color: white;
+    border-radius: 20px;
+    border:none;
+    font-size:1vw;
+    position:relative;
+    top:-13vh;
+    left:10vw;
+   
+}
+
+
+#kim,#tan{
+     font-size:1.8vw;
+    position:relative;
+    top:-13vh;
+    left:10vw;
+    color:#ffffff;
+
+}
+
+#kim{
+     color:#ffffff;
+    font-weight:700;
+
+    
+}
+
+#tan{
+    position: relative;
+    left:-6vw;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.footer{
+    height:200vh;
+    width:100vw;
+    /* background-color: burlywood; */
+    display:flex;
+    /* justify-content: center; */
+    align-items:center;
+    flex-direction:column;
+    gap:20px;
+    /* flex-wrap:wrap; */
+}
+
+.F-1{
+    height:85vh;
+    width:95vw;
+    /* background-color: cornflowerblue; */
+    border-bottom:2px solid whitesmoke;
+     background-color:whitesmoke;
+}
+
+
+@media (max-width:1285.60px){
+    .F-1{
+        height:180vh;
+
+    }
+
+    .stream{
+        height:4.8vh;
+        width:10vw;
+        font-size:1.5vw
+    }
+
+    .button-container{
+        gap:1vw;
+        /* text-align: center; */
+          display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    }
+
+    #buy{
+       width:12vw
+
+    }
+
+    #T1{
+        padding-top:10vh;
+        padding-right:5vh;
+        font-size: 2vw;
+    }
+
+    .m2-container .S{
+        width:12vw;
+        font-size: 2vw;
+    }
+
+    .button{
+        width:14vw;
+    }
+
+    .F-3 p{
+        gap:3vw;
+
+    }
+
+    .main-2{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         /* flex-wrap:wrap; */
+
+    }
+
+    .m1{
+        height: 135vh;
+    }
+
+}
+
+@media (min-width:1285.60px){
+    .F-1{
+        height:120vh
+    }
+}
+
+@media (min-width:833.50px){
+      .double{
+        display:none;
+        visibility: hidden;
+    }
+
+    #tan{
+    position: relative;
+    /* left:-10vw; */
+}
+}
+
+
+
+.F-2{
+    height:90vh;
+    width:95vw;
+    background-color:whitesmoke;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 20px; 
+     border-bottom:2px solid whitesmoke;
+
+}
+
+.F-2 div h2{
+
+    font-size:2.4vmin;
+}
+
+.F-2 div p{
+    color:black;
+    font-size:1.8vmin;
+    background: transparent;
+}
+
+.F-1 p{
+    font-size:1.8vmin;
+    /* background: transparent; */
+}
+
+
+.F-3{
+    /* padding:0px 5px; */
+    height:10vh;
+    width:95vw;
+    display:flex;
+    background-color: whitesmoke;
+   flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    /* align-items:center; */
+     /* background: transparent;  */
+}
+
+
+.F-3 i{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    /* background: transparent;               */
+}
+
+.F-3 p{
+    background: transparent;
+    color:black;
+}
+h1{
+    color:black;
+}
+
